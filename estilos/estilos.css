@@ -505,7 +505,7 @@ grid-area: auto;
 
   /*Formulario*/
 
-  .dudas_comentarios{
+  .dudas_comentarios{ 
     background-image: url(./kuionthi.jpg);
     background-size: cover;
     background-repeat: no-repeat;
