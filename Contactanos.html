@@ -47,6 +47,7 @@
 
     <div id="formulario"> <!--formulario-->
 <form>
+    
     <labe for="Nombre">Nombre:</labe>
     <input id="Nombre" type="text" name="Nombre" placeholder="Ingrese nombre"/>
 
@@ -68,23 +69,30 @@
 </p>
 <p>
     <labe for="asunto">Edad:</labe>
-    <input type="text" name="asunto" placeholder="Asunto"/>
+    <input type="text" name="asunto" placeholder="Edad"/>
+
+    
 </p>
-    <br>
+    
     
 
-<p class="sexo">    
-    Sexo: <input type="radio" name="sexo" value="h" /> hombre <input type="radio" name="sexo" value="m" /> mujer
-</p>
-    <textarea cols="50"rows="10"id="comentario" placeholder="Ingrese su comentario" nane="comentario"></textarea>
-<br>
-<br>
-<br>
-    <input type="submit" value="Enviar formulario">
-    <input type="reset" value="Limpiar formulario">
-    <input type="button" value="Sin acciones">
+Sexo:
+<input type="checkbox" class="btn-check" id="btn-check-outlined" autocomplete="off">
+<label class="btn btn-outline-primary" for="btn-check-outlined">Femenino</label><br>
 
+<input type="checkbox" class="btn-check" id="btn-check-2-outlined" checked autocomplete="off">
+<label class="btn btn-outline-secondary" for="btn-check-2-outlined">Masculino</label><br>
+
+
+    <textarea cols="50"rows="10"id="comentario" placeholder="Ingrese su comentario" nane="comentario"></textarea>
+
+
+
+<div>
+    <button type="submit" class="btn btn-primary">Enviar formulario</button>
+    <button type="submit" class="btn btn-primary">Limpiar formulario</button>
 </form>
+</div>
     </div>
 </div> 
 
