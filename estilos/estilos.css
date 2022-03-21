@@ -292,6 +292,13 @@ grid-area: auto;
     align-items: center;
     
 }
+
+.running{
+    display:block;
+margin:auto;
+}
+
+
 /**Seccion de comentarios **/
 
 .dudas_comentarios{
