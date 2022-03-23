@@ -259,13 +259,7 @@ footer{
 
 
 
-@media (max-width:500px) {
-    .footer{
-      display: flex;
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
-    }
+
 
 
 /**Nosotros**/
@@ -468,3 +462,18 @@ margin:auto;
   .dudas{
       text-align: center;
   }
+
+
+
+
+  @media (max-width:500px) {
+    .footer{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      
+    }
+    }
+
+
+
