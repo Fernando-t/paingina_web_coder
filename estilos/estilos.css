@@ -91,11 +91,13 @@ padding: 1rem;
 
 
 /***************Fondos y eventos***************/
+/***************Fondos y eventos***************/
 
 
 .contenedor .contenedor2{
     max-width: 1200px;
     margin: 0 auto  ;
+    
 
 }
 .contenedor{
@@ -113,7 +115,7 @@ padding: 1rem;
 .eventos{
     text-align: center;
     color: white;
-    margin-top: 15px;
+    
 }
 
 .fondo{
@@ -130,53 +132,13 @@ padding: 1rem;
 .mex{
     text-align: center;
     margin-top: 300px;
-    font-size: 1cm;
+    font-size: 1.5cm;
     color: rgb(177, 226, 43);
 }
 
-
-
-.contenedor2{
-    display: grid;
-    height: 100vh;
+.onthi{
+    font-size: 1.2cm;
     
-}
-
-
-
-.fondo2{
-    background-image: url(./trailrunning.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: right;
-    font-size: 20px;
-    
-    
-    
-}
-
-.evento1{
-    color: white;
-    display: grid;
-    justify-content: center;
-    text-align: center;
-    width: 500px;
-    margin-top: 100px;
-    
-    
-
-}
-
-
-.evento2{
-    color: white;
-    display: grid;
-    justify-content: center;
-    text-align: center;   
-    width: 500px;
-    margin-top: 50px;
-    
-
 }
 
 /*********Footer*********/
@@ -245,19 +207,6 @@ footer{
 
 /*********************************************/
 /*Main*/
-
-.contendor{
-    margin: 110px;
-}
- .kuionthi{
-    margin-left: auto;
-    margin-right: auto;
- }
-
-
-
-
-
 
 
 
