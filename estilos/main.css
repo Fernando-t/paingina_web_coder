@@ -1,0 +1,297 @@
+/*Impor*/
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Inter:wght@300;500;700&display=swap");
+/*Variables*/
+:root {
+  --principal: black;
+  --secondary: #ffffff;
+  --font-primary:"Inter", sans-serif;
+  --font-secondary:"Bowly One SC", cursive; }
+
+/*Normalize*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*Globals*/
+html {
+  font-size: 62.5%;
+  font-family: var(--font-primary);
+  color: var(--principal); }
+
+ul {
+  list-style-type: none; }
+
+a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: var(--secondary);
+  display: inline-block; }
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh; }
+
+/**********************Helpers************************/
+.flex-row {
+  display: flex; }
+
+.flex-column {
+  display: flex;
+  flex-direction: column; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/*****************Header & Navbar********************/
+header {
+  background-color: grey; }
+
+header .navbar {
+  min-height: 10vh;
+  justify-content: space-between;
+  align-items: center; }
+
+header .logo {
+  flex-basis: 30%; }
+
+header .menu {
+  flex-basis: 30%;
+  justify-content: space-between; }
+
+.menu .menu__item .menu__link {
+  font-size: 1.8em;
+  padding: 1rem; }
+
+/***************Fondos y eventos***************/
+/***************Fondos y eventos***************/
+.contenedor .contenedor2 {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.contenedor {
+  display: grid;
+  height: 100vh; }
+
+.mex {
+  display: grid;
+  margin: 0; }
+
+.eventos {
+  text-align: center;
+  color: white; }
+
+.fondo {
+  background-image: url(./kuionthi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: right;
+  font-size: 20px; }
+
+.mex {
+  text-align: center;
+  margin-top: 300px;
+  font-size: 1.5cm;
+  color: #b1e22b; }
+
+.onthi {
+  font-size: 1.2cm; }
+
+/*********Footer*********/
+/**Footer**/
+.footer {
+  background: grey;
+  padding: 0;
+  text-align: center;
+  margin-top: 1rem; }
+
+footer {
+  width: 100%;
+  background-color: grey; }
+
+.footer .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 0.5rem 0px; }
+
+.footer .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer .grupo-1 .box figure img {
+  width: 200px; }
+
+.footer .grupo-1 .box h2 {
+  color: black;
+  margin-bottom: 25px;
+  font-size: 20px; }
+
+.footer .grupo-1 .box p {
+  color: black;
+  margin-bottom: 10px; }
+
+.footer .grupo-2 small {
+  text-align: center;
+  font-size: 15px; }
+
+.box {
+  font-size: 15px; }
+
+/*********************************************/
+/*Main*/
+/**Nosotros**/
+.nosotros {
+  grid-area: auto; }
+
+.unsc {
+  grid-area: auto;
+  text-align: center;
+  font-size: 40px; }
+
+.run {
+  grid-area: auto;
+  text-align: center;
+  font-size: 15px; }
+
+.runner {
+  grid-area: auto;
+  align-items: center; }
+
+.running {
+  display: block;
+  margin: auto; }
+
+/**Seccion de comentarios **/
+.dudas_comentarios {
+  text-align: center; }
+
+#formulario {
+  text-align: center; }
+
+.sexo {
+  color: black; }
+
+.btn {
+  font-size: 15px; }
+
+/**Galeria**/
+#galeria .col-lg-4 {
+  margin: 0;
+  padding: 25px; }
+
+#galeria img {
+  width: 100%;
+  height: 250px; }
+
+#galeria img:hover {
+  border: 5px solid #f7f7f7; }
+
+.evento {
+  font-size: 20px;
+  text-align: center; }
+
+#gal {
+  background-color: rgba(245, 245, 245, 0.603); }
+
+/****************Tienda***************/
+.cuerpo {
+  background-color: rgba(245, 245, 245, 0.904); }
+
+.shop {
+  justify-self: center;
+  align-self: center; }
+
+#tienda div {
+  background-color: grey;
+  font-size: 21px;
+  padding: 5px; }
+
+#tienda {
+  display: grid;
+  width: auto;
+  height: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-template-rows: auto auto;
+  grid-row-gap: 10px; }
+
+.description {
+  text-align: center; }
+
+.arrived {
+  text-align: center;
+  font-size: 60px;
+  color: black; }
+
+.new {
+  justify-self: center;
+  align-self: center; }
+
+#essentials div {
+  background-color: grey;
+  font-size: 21px;
+  padding: 5px; }
+
+#essentials {
+  display: grid;
+  width: auto;
+  height: auto;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-template-rows: auto auto;
+  grid-row-gap: 10px; }
+
+.wolf {
+  text-align: center;
+  font-size: 20px; }
+
+.tennis {
+  justify-self: center;
+  align-self: center; }
+
+#fastest div {
+  background-color: grey;
+  font-size: 21px;
+  padding: 5px; }
+
+#fastest {
+  display: grid;
+  width: auto;
+  height: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-template-rows: auto auto;
+  grid-row-gap: 10px; }
+
+.ocr {
+  text-align: center; }
+
+/*Formulario*/
+.dudas_comentarios {
+  background-image: url(./kuionthi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: right;
+  font-size: 20px;
+  display: grid;
+  height: 100vh; }
+
+.dudas {
+  text-align: center; }
+
+@media (max-width: 500px) {
+  .footer {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px; } }
