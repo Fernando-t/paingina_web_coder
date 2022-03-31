@@ -2,8 +2,18 @@
 
 /*Variables*/
 
-
+    $principal:'dark';
     $principal: black;
     $secondary: #ffffff;
     $font-primary:"Inter", sans-serif; 
     $font-secondary:"Bowly One SC", cursive;
+
+
+    @if $theme = 'dark'{
+        $principal: black
+    } @else if $theme ='light'{
+        $principal: rgb(57, 57, 122)
+    } @else {
+        $principal:black
+    }    
+          
